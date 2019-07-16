@@ -13,7 +13,8 @@ print(type(a), type(b), type(c), type(d))
 # 可以使用 isinstance 判断类型
 print(isinstance(a, int))
 # type()不会认为子类是一种父类类型。 isinstance()会认为子类是一种父类类型。
-# 在 Python2 中是没有布尔型的，它用数字 0 表示 False，用 1 表示 True。到 Python3 中，把 True 和 False 定义成关键字了，但它们的值还是 1 和 0，它们可以和数字相加
+# 在 Python2 中是没有布尔型的，它用数字 0 表示 False，用 1 表示 True。
+# 到 Python3 中，把 True 和 False 定义成关键字了，但它们的值还是 1 和 0，它们可以和数字相加
 
 # 使用del语句删除一些对象引用。( 可以同时删除多个 )
 del a
@@ -133,6 +134,8 @@ print(tuple(tinydict))  # 将字典转换为元组时，只保留键！
 # frozenset() 返回一个冻结的集合，冻结后集合不能再添加或删除任何元素。
 # chr() 用一个范围在 range（256）内的（就是0～255）整数作参数，返回一个对应的字符。 支持十进制与十六进制
 print(chr(49))
-# ord() 函数是 chr() 函数（对于8位的ASCII字符串）或 unichr() 函数（对于Unicode对象）的配对函数，它以一个字符（长度为1的字符串）作为参数，返回对应的 ASCII 数值，或者 Unicode 数值，如果所给的 Unicode 字符超出了你的 Python 定义范围，则会引发一个 TypeError 的异常。
+# ord() 函数是 chr() 函数（对于8位的ASCII字符串）或 unichr() 函数（对于Unicode对象）的配对函数，
+# 它以一个字符（长度为1的字符串）作为参数，返回对应的 ASCII 数值，或者 Unicode 数值，
+# 如果所给的 Unicode 字符超出了你的 Python 定义范围，则会引发一个 TypeError 的异常。
 # hex() 函数用于将10进制整数转换成16进制，以字符串形式表示。
 # oct() 函数将一个整数转换成8进制字符串。
