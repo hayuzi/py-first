@@ -1,5 +1,5 @@
-# -*- coding: UTF-8 -*-
 #!/usr/local/bin/python3
+# -*- coding: UTF-8 -*-
 
 # 第一个注释
 import sys
