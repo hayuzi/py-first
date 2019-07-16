@@ -148,3 +148,14 @@ def fun1():
     print(num)
 fun1()
 print(num)
+
+# 如果要修改嵌套作用域（enclosing 作用域，外层非全局作用域）中的变量则需要 nonlocal 关键字了，如下实例：
+def outerfunc():
+    num = 10
+    def innerfunc():
+        nonlocal num   # nonlocal关键字声明
+        num = 100
+        print(num)
+    innerfunc()
+    print(num)
+outerfunc()
