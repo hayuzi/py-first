@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # ------------
 # 运算符
 # Python运算符优先级
