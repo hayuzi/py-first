@@ -10,5 +10,6 @@ test
     1. [datastructure.py](./base/datastructure.py)
     1. [modules.py](./base/modules.py)
     1. [io.py](./base/io.py)
-    1. [osfunc.py](./banse/osfunc.py)
+    1. [dealwithexp.py](./banse/dealwithexp.py)
+    1. [oob.py](./banse/oob.py)
     
