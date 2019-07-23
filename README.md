@@ -3,16 +3,16 @@ test
 
 ### 浏览顺序
 - base
-    1. [basesyntax.py](./base/basesyntax.py)
-    1. [datatype.py](./base/datatype.py)
-    1. [operatorandprocess.py(include process crontol)](./base/operatorandprocess.py) 
-    1. [function.py](./base/function.py)
-    1. [datastructure.py](./base/datastructure.py)
-    1. [modules.py](./base/modules.py)
-    1. [io.py](./base/io.py)
-    1. [dealwithexp.py](./banse/dealwithexp.py)
-    1. [oob.py](./base/oob.py)
-    1. [standardlib.py](./base/standardlib.py)
+    - [basesyntax.py](./base/basesyntax.py)
+    - [datatype.py](./base/datatype.py)
+    - [operatorandprocess.py(include process crontol)](./base/operatorandprocess.py) 
+    - [function.py](./base/function.py)
+    - [datastructure.py](./base/datastructure.py)
+    - [modules.py](./base/modules.py)
+    - [io.py](./base/io.py)
+    - [dealwithexp.py](./base/dealwithexp.py)
+    - [oob.py](./base/oob.py)
+    - [standardlib.py](./base/standardlib.py)
     
 
 
