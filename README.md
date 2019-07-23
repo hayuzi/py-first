@@ -1,7 +1,7 @@
 # py-first
 test
 
-# 浏览顺序
+### 浏览顺序
 - base
     1. [basesyntax.py](./base/basesyntax.py)
     1. [datatype.py](./base/datatype.py)
@@ -11,6 +11,9 @@ test
     1. [modules.py](./base/modules.py)
     1. [io.py](./base/io.py)
     1. [dealwithexp.py](./banse/dealwithexp.py)
-    1. [oob.py](./banse/oob.py)
+    1. [oob.py](./base/oob.py)
     1. [standardlib.py](./base/standardlib.py)
     
+
+
+
